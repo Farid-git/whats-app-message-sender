@@ -10,9 +10,7 @@ function App() {
   return (
     <div className="App">
       <div class="wrapper-main">
-        <p>
-          Отправка сообщения по WhatsApp
-        </p>
+        <p class="title"> Отправка сообщения по WhatsApp </p>
 
         <input type="tel" onChange={(e) => {
           let phoneNumber = e.target.value
